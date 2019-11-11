@@ -9,7 +9,7 @@ public class Student extends Person implements Compare{
         this.gpa = gpa;
     }
     public String toString() {
-        final String GPA ="  GAP: ";
+        final String GPA ="  \tGAP: ";
         return (name + GPA + gpa);
     }
     public int comparing(Object o) {

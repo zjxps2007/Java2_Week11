@@ -1,6 +1,6 @@
 public class EmployeeSortTest {
     public static void main(String[] args) {
-        Employee e[] = new Employee[10];
+        Employee []e = new Employee[10];
 
         e[0] = new Employee("Kim",300.0);
         e[1] = new Employee("Lee",450.0);

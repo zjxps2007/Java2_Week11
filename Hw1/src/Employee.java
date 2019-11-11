@@ -9,7 +9,7 @@ public class Employee extends Person implements Compare{
         this.grossPay = grossPay;
     }
     public String toString(){
-        final String DOLLAR_SIGN = "  $";
+        final String DOLLAR_SIGN = "  \t$";
         return (name + DOLLAR_SIGN + grossPay);
     }
     public int comparing(Object o) {

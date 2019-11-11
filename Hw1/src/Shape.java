@@ -10,6 +10,6 @@ public class Shape {
         this.y = y;
     }
     public String toString() {
-        return ("Shape at x :" + x + " y: " + y);
+        return ("Shape at x :" + x + " y: " + y + " \t");
     }
 }
